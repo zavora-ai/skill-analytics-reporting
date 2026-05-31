@@ -1,44 +1,9 @@
 ---
 name: analytics-reporting
 description: Orchestrate governed analytics — query revenue metrics, build dashboards, analyze conversion funnels, detect anomalies, forecast growth, and explain metric changes. Use when checking KPIs, building dashboards, analyzing funnels, detecting anomalies, forecasting metrics, comparing periods, or generating executive summaries.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-analytics server connected. Optional: mcp-slack for alert delivery, mcp-email for scheduled reports.
-allowed-tools:
-  - list_data_sources
-  - list_datasets
-  - describe_dataset
-  - list_metrics
-  - get_metric_definition
-  - query_metric
-  - breakdown_metric
-  - compare_metric
-  - query_events
-  - query_report
-  - analyze_funnel
-  - analyze_cohort
-  - detect_anomalies
-  - forecast_metric
-  - explain_change
-  - generate_insight_summary
-  - list_dashboards
-  - get_dashboard
-  - summarize_dashboard
-  - create_dashboard
-  - add_widget
-  - validate_analytics_policy
-tags:
-  - business
-  - analytics
-  - metrics
-  - revenue
-  - funnels
-  - forecasting
-  - dashboards
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [list_data_sources, list_datasets, describe_dataset, list_metrics, get_metric_definition, query_metric, breakdown_metric, compare_metric, query_events, query_report, analyze_funnel, analyze_cohort, detect_anomalies, forecast_metric, explain_change, generate_insight_summary, list_dashboards, get_dashboard, summarize_dashboard, create_dashboard, add_widget, validate_analytics_policy]
 metadata:
   author: Zavora AI
   mcp-server: mcp-analytics
